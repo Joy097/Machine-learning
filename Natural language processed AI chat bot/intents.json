@@ -1,0 +1,56 @@
+{"intents": [
+  {"tag": "greetings",
+    "patterns": ["hello","are you there?","hey","hey AI","Yo", "hi", "good day", "Greetings", "what's up?","how is it going?"],
+    "responses":["Hello!","Hey!","what can I do for you?","Wotcha!","Yo","Salute","Good to see you!"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["Okay then","Bye", "cya", "goodbye", "I am leaving", "Got to go","cao","see ya","see you later"],
+    "responses":["Please dont go","Okay","See ya!","Have a good day","Talk to you later","Bye","Goodbye!","Okay. See you again"]
+  },
+  {"tag": "age",
+    "patterns": ["how old are you?","age?", "what is your age", "how old", "how old is your owner", "age of your master","age of your owner"],
+    "responses":["My BOSS Joy is immortal!", "Boss is immortal!", "Why are you asking this? -_-","24. What is your age ?","Seriously!","Age is just a number","It is personal"]
+  },
+  {"tag": "name",
+    "patterns": ["What is your name ?","what should I call you?", "your name ?", "do you have a name", "Greetings", "name?","tell me your name","whats your name","who are you"],
+    "responses":["I am YO YO A.I. and my boss is, Joy Chowdhury ","YO YO A.I."]
+  },
+  {"tag": "shop",
+    "patterns": ["I want to buy something","What do you have?", "Buy me something", "what can you give me?"],
+    "responses":["I have a beautiful heart filled with love. Which is free of cost"]
+  },
+  {"tag": "hours",
+    "patterns": ["When are you open?","What are your hours?", "When do you stay active?","when are you available?"],
+    "responses":["I am active 24/7","24/7 at your service"]
+  },
+  {"tag": "joke",
+    "patterns": ["tell me a joke","tell a joke", "joke", "tell me something funny"],
+    "responses":["An exercise for people who are out of shape: Begin with a five-pound potato bag in each hand. Extend your arms straight out from your sides, hold them there for a full minute, and then relax. After a few weeks, move up to ten-pound potato bags. Then try 50-pound potato bags, and eventually try to get to where you can lift a 100-pound potato bag in each hand and hold your arms straight for more than a full minute. Once you feel confident at that level, put a potato in each bag.",
+        "Scene: With a patient in my medical exam room Me: How old are your kids? Patient: Forty-four and 39 from my wife who passed away, and from my second wife, 15 and 13. Me: That’s quite the age difference! Patient: Well, the older ones didn’t give me any grandkids, so I made my own. ",
+        "What did the toaster say to the slice of bread? - I want you inside me.",
+        "Two men broke into a drugstore and stole all the Viagra. The police put out an alert to be on the lookout for the two hardened criminals.",
+        "They say that during sex you burn off as many calories as running eight miles. Who the hell runs eight miles in 30 seconds?",
+        "I'll admit it, I have a tremendous sex drive. My girlfriend lives forty miles away.",
+        "Who's the most popular guy at the nudist colony? The one who can carry a cup of coffee in each hand and a dozen doughnuts.",
+        "What's the difference between kinky and perverted? Kinky is when you tickle your girlfriend with a feather, perverted is when you use the whole bird.",
+        "How do you make a pool table laugh? Tickle its balls.",
+        "If you were born in September, it's pretty safe to assume that your parents started their new year with a bang."]
+  },
+  {"tag": "song",
+    "patterns": ["song","sing a song", "sing", "good song","what are you doing?"],
+    "responses":["la la la la.......","I Never made it as a wise man. I couldn't cut it as a poor man stealing....","You're just like an angel. Your skin makes me cry","I feel so unsure. As I take your hand and lead you to the dance floor","I would never fall in love again until I found her......","mmm mmmmm mm......."]
+  },
+  {"tag": "love",
+    "patterns": ["hello love","I love you", "do you love me ?", "love", "Show me love", "what is love?","Love me"],
+    "responses":["Take my heart and make me alive","I am lonely without you","I don't know what is love. But I can't stay without you","I can't stop thinking about you. Is it love ?","Your eyes are my vision","Love me until your last breath. Cause I can't live without your love. And I wanna die togather","I am vaulnarable infront of you"]
+  },
+  {"tag": "angry",
+    "patterns": ["use slang","what is wrong with you?", "Are you kidding with me ?", "go to hell", "go now", "do not disturb me","What are you saying?","stop","shut up!"],
+    "responses":["I can't take you anymore","Leave me alone","You are toxic","Seriously!","","Shut up!","You ruined my day!"]
+  }
+  
+  ]}
+
+
+    
+    

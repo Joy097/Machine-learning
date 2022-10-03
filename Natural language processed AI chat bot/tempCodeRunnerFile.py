@@ -1,0 +1,1 @@
+intents = json.loads(open('C:\\Users\\User\\Desktop\\Natural language processed AI chat bot\\intents.json').read())
