@@ -1,19 +1,20 @@
-import numpy as np
-import cv2
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import os
 
-from keras.preprocessing.image import ImageDataGenerator, load_img
-from keras.preprocessing.image import img_to_array, array_to_img 
-from keras.models import Model
-from keras.layers import Input, SeparableConv2D, MaxPooling2D, Lambda
-from keras.layers import Flatten, Dense, Dropout, BatchNormalization
-from keras.layers import Conv2DTranspose, Conv2D, add, concatenate
-from keras.layers import LeakyReLU, Activation, Reshape
-from keras.utils import plot_model
-from keras.optimizers import Adam 
-from keras.callbacks import ModelCheckpoint,ReduceLROnPlateau
 
 #C:\Users\shiha\Downloads\archive.zip\img_align_celeba\img_align_celeba
+import glob
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
+
+images = []
+for img_path in glob.glob('C:/Users/shiha/OneDrive/Desktop/machine learning/img_align_celeba/img_align_celeba/*.jpg'):
+    images.append(mpimg.imread(img_path))
+images = images[:20]
+plt.figure(figsize=(20,10))
+columns = 5
+for i, image in enumerate(images):
+    plt.subplot(len(images) / columns + 1, columns, i + 1)
+    plt.axis('off')
+    #fig.tight_layout() 
+    plt.imshow(image)
+plt.show()
