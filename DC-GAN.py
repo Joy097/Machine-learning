@@ -15,3 +15,5 @@ from keras.layers import LeakyReLU, Activation, Reshape
 from keras.utils import plot_model
 from keras.optimizers import Adam 
 from keras.callbacks import ModelCheckpoint,ReduceLROnPlateau
+
+#C:\Users\shiha\Downloads\archive.zip\img_align_celeba\img_align_celeba
